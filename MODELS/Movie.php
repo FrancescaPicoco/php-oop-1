@@ -12,7 +12,7 @@ public function getFullInfo(){
     return $result;
 }
 
-public function __construct($nome, $anno, $genere, $attori, $regista, $produttori) {
+public function __construct($nome, $anno, $genere, $attori, $regista, $produttori, array $genere) {
     $this->name=$nome;
     $this->year=$anno;
     $this->category=$genere;
